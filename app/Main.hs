@@ -12,5 +12,5 @@ main = execParser opts >>= watch
     opts = info (helper <*> watcher)
       ( fullDesc
      <> progDesc "Watches files for changes and executes a command on change"
-     <> header "watcher - File INotify wathcer" )
+     <> header "watcher - File INotify watcher" )
 
