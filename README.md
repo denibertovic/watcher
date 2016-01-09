@@ -40,6 +40,12 @@ the process if it crashed.
 
 Report issues on the Issue tracker: https://github.com/denibertovic/watcher/issues
 
-1. Clone the repo: git clone git@github.com:denibertovic/watcher.git  (or fork it first and then clone)
-2. cd watcher && stack build
+1. Install [stack](https://github.com/commercialhaskell/stack/releases)
+2. Clone the repo (or fork it first and then clone):
+
+    `git clone git@github.com:denibertovic/watcher.git`
+
+3. Build:
+
+    `cd watcher && make build`
 
